@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atlas — Support</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1b1a19; --muted: #5f5b57;
+    --rule: #e6e2dd; --accent: #b4531f; --card: #faf8f6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #171513; --fg: #ece8e3; --muted: #a8a29b;
+      --rule: #2e2a26; --accent: #e08a52; --card: #1f1c19;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 0 1.25rem 5rem; background: var(--bg); color: var(--fg);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 44rem; margin: 0 auto; }
+  header { padding: 3.5rem 0 1.5rem; border-bottom: 1px solid var(--rule); margin-bottom: 2rem; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 .5rem; letter-spacing: -0.02em; }
+  h2 { font-size: 1.2rem; margin: 2.5rem 0 .5rem; letter-spacing: -0.01em; }
+  h3 { font-size: 1rem; margin: 1.5rem 0 .35rem; }
+  .lede { color: var(--muted); font-size: 1.05rem; margin: 0; }
+  p, li { color: var(--fg); }
+  ul { padding-left: 1.25rem; }
+  li { margin: .35rem 0; }
+  a { color: var(--accent); }
+  strong { font-weight: 650; }
+  .contact {
+    background: var(--card); border: 1px solid var(--rule);
+    border-radius: 12px; padding: 1.25rem; margin: 1.5rem 0 2.5rem;
+  }
+  .contact p { margin: 0; }
+  .contact .addr { font-size: 1.15rem; font-weight: 650; margin-top: .35rem; }
+  .muted { color: var(--muted); font-size: .95rem; }
+  footer {
+    margin-top: 4rem; padding-top: 1.5rem;
+    border-top: 1px solid var(--rule); color: var(--muted); font-size: .9rem;
+  }
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <h1>Atlas Support</h1>
+  <p class="lede">Help with Atlas — your travel history, on your device.</p>
+</header>
+
+<div class="contact">
+  <p>Questions, problems or suggestions:</p>
+  <p class="addr"><a href="mailto:[YOUR CONTACT EMAIL]">[YOUR CONTACT EMAIL]</a></p>
+  <p class="muted" style="margin-top:.5rem">Replies usually within a couple of days. Atlas is made by one person.</p>
+</div>
+
+<h2>Reporting a problem</h2>
+
+<p>Atlas can produce a diagnostic report that makes a problem far easier to
+find. Open <strong>Settings → Privacy Centre → Diagnostics</strong>, review
+what it contains, and share it with your message.</p>
+
+<p>The report holds counts, settings and the app’s warning trail — it is
+written to avoid your travel details, names and booking references. Read it
+before sending; nothing is sent automatically.</p>
+
+<h2>Common questions</h2>
+
+<h3>Where is my data stored?</h3>
+<p>On your iPhone. Atlas has no account and no developer server. If you turn
+on iCloud sync, a copy also goes to your own private iCloud account, which we
+cannot read. See the <a href="privacy.html">Privacy Policy</a>.</p>
+
+<h3>I turned on iCloud sync and some items “couldn’t sync”</h3>
+<p>Check that you are signed into iCloud and that iCloud Drive is on, then
+use <strong>Sync Now</strong>. If a count persists, email us with a diagnostic
+report — that message means specific records were refused, and the report
+helps identify which.</p>
+
+<h3>Atlas read something from my ticket incorrectly</h3>
+<p>Every imported field can be corrected before it is saved, and edited
+afterwards from the record itself. Atlas shows the text it read for each
+field, so you can check it against the document. Nothing is saved without your
+confirmation.</p>
+
+<h3>Can I get my data out?</h3>
+<p>Yes, at any time and free of charge. <strong>Settings → Import &amp;
+Export</strong> exports your whole archive as JSON or CSV. This is deliberate —
+your archive should never be locked inside the app.</p>
+
+<h3>How do I delete everything?</h3>
+<p><strong>Settings → Privacy Centre → Delete All Data</strong> removes your
+archive from the device. If iCloud sync is on, the copy held in iCloud is
+removed separately, in <strong>Settings → iCloud</strong>.</p>
+
+<h3>What does Atlas Pro include?</h3>
+<p>Unlimited trips (the free version holds 10), PDF reports, Atlas keeping
+your travel calendar up to date, and sharing a trip with the people you
+travelled with. Everything else — importing, the map, Passport, Insights,
+share cards, export and iCloud sync — is free.</p>
+
+<h3>I subscribed on another device / reinstalled the app</h3>
+<p>Open the paywall and tap <strong>Restore Purchases</strong>. Make sure you
+are signed in with the same Apple Account used for the purchase.</p>
+
+<h3>How do I cancel a subscription?</h3>
+<p>In <strong>Settings → your name → Subscriptions</strong> on your device.
+Deleting Atlas does not cancel a subscription. Lifetime Pro never renews, so
+there is nothing to cancel.</p>
+
+<h3>What happens if my subscription ends?</h3>
+<p>Nothing is deleted or hidden. You keep viewing, correcting, exporting,
+restoring and deleting everything, iCloud sync keeps working, and trips beyond
+the free limit stay fully usable. Only creating new trips beyond the limit,
+new PDF reports, further calendar updates, and starting new shares stop until
+you subscribe again. The full detail is in the
+<a href="terms.html">Terms of Use</a>.</p>
+
+<h3>Someone shared a trip with me and I can’t open it</h3>
+<p>Viewing a trip somebody shared with you is part of Atlas Pro. Your
+invitation is held and waits — it is not lost, and there is no time limit.
+Once you have Pro, accept it and the trip appears.</p>
+
+<h3>Does Atlas work offline?</h3>
+<p>Yes. Reading documents, every figure, the Passport and Insights all work
+with no connection. Map tiles and iCloud sync need one.</p>
+
+<footer>
+  <p>Atlas · Support ·
+  <a href="privacy.html">Privacy Policy</a> ·
+  <a href="terms.html">Terms of Use</a></p>
+</footer>
+
+</main>
+</body>
+</html>
